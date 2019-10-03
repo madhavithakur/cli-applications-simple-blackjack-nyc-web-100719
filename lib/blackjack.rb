@@ -34,7 +34,7 @@ def hit?(num)
   input = ["h", "s"]
   user_prompt = prompt_user
   user_input = get_user_input
-  binding.pry
+  #binding.pry
   until input.include?(user_input) 
     invalid_command
     prompt_user
