@@ -58,7 +58,8 @@ end
 
 def runner
   welcome
- card_total = 0
+ card_total = 0 
+  initial_round
   deal_card
  
   prompt_user
