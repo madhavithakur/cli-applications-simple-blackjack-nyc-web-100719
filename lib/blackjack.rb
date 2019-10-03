@@ -29,6 +29,7 @@ display_card_total(sum)
 end
 
 def hit?(num)
+  input = ["h", "s"]
   user_prompt = prompt_user
   user_input = get_user_input
   
