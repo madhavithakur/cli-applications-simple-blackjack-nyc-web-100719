@@ -58,9 +58,9 @@ end
 
 def runner
   welcome
- card_total = initial_round
-until card_total > 21
-deal_card
+  card_total = initial_round
+  until card_total > 21
+    hit?
  
   prompt_user
   
