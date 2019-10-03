@@ -57,9 +57,9 @@ end
 #####################################################
 
 def runner
-  # Welcome
-  #deal_card
-  #prompt_user
+  Welcome
+  deal_card
+  prompt_user
   
 end
     
