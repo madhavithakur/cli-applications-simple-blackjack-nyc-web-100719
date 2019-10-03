@@ -57,8 +57,10 @@ end
 #####################################################
 
 def runner
-  Welcome
+  welcome
+ card_total = 
   deal_card
+ 
   prompt_user
   
 end
